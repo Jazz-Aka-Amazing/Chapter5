@@ -13,7 +13,7 @@ namespace IntegerList.cs
             for (int i = 0; i < grades.Length; i++)
             {
                 Array.Sort(grades);
-                Array.Reverse(grades);
+                Array.Reverse(grades);                      
                 Console.WriteLine(grades.Length);
 
             }
